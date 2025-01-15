@@ -1,0 +1,234 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        @media all and (max-width: 768px) {
+            * {
+                font-size: 14px;
+                color: white;
+                line-height: 1.5;
+            }
+
+            .responsive-padding {
+                padding: 32px 28px !important
+            }
+
+            .responsive-text {
+                font-size: 24px !important
+            }
+        }
+
+        @media all and (min-width: 769px) {
+            * {
+                font-size: 20px;
+                color: white;
+                line-height: 1.5;
+            }
+
+            .responsive-padding {
+                padding: 72px 172px !important
+            }
+
+            .responsive-text {
+                font-size: 44px !important
+            }
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #ffffff !important;
+                color: #000000 !important;
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            body {
+                background-color: #ffffff !important;
+                color: #000000 !important;
+            }
+        }
+
+        body {
+            background-color: #343434;
+            color: white;
+        }
+
+        * {
+            margin: 0 auto;
+            box-sizing: border-box;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: auto;">
+        <tbody>
+            <tr>
+                <td align="center" class="responsive-padding" style="background-color: black;">
+                    <img style="width: 80%; margin-bottom: 64px;" src="https://i.imgur.com/WqmO3B1.png" alt=""
+                        style="display:block; margin:0 auto; max-width:100%">
+                    <h1
+                        style="color:rgb(255, 255, 255); font-size: 24px; font-weight:bold; line-height:1.25; text-align:center; margin:0">
+                        Congratulations <br><span class="responsive-text"
+                            style="color:rgb(221, 184, 66)">${Contacts.Lead Source}</span>
+                    </h1>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" class="responsive-padding" style="background-color:rgb(52, 52, 52)">
+                    <strong
+                        style="color:rgb(221, 184, 66); font-size:24px; font-weight:bold; line-height:1.5; text-align:center; display:block; margin-bottom:16px">
+                        Your order has been successfully submitted!
+                    </strong>
+                    <p style="color:rgb(255, 255, 255); line-height:1.5; text-align:center; margin:0">
+                        Please follow the instructions below to send funds. As soon as ODT Inc. (On-Demand Trading)
+                        receives
+                        your payment, we will reach out and be able to process your order.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td align="left" class="responsive-padding" style="background-color:rgb(113, 113, 113)">
+                    <strong
+                        style="color:rgb(221, 184, 66); font-size:20px; font-weight:bold; text-align:left; display:block; margin-bottom:16px">
+                        For Purchases, please wire funds to:
+                    </strong>
+                    <p style="color:rgb(255, 255, 255); line-height:1.5; text-align:left; margin:8px 0">
+                        <strong>ABA Routing Number:</strong> 031302971
+                    </p>
+                    <p style="color:rgb(255, 255, 255); line-height:1.5; text-align:left; margin:8px 0">
+                        <strong>Beneficiary Bank:</strong> Customers Bank
+                    </p>
+                    <p style="color:rgb(255, 255, 255); line-height:1.5; text-align:left; margin:8px 0">
+                        <strong>Beneficiary Bank Address:</strong> 40 General Warren Blvd, Suite 200, Malvern, PA 19355
+                    </p>
+                    <div style="width:100%; height:1px; background-color:rgb(255, 255, 255); margin:16px 0"></div>
+                    <p style="color:rgb(255, 255, 255); line-height:1.5; text-align:left; margin:8px 0">
+                        <strong>Beneficiary Account Number:</strong> 9206370
+                    </p>
+                    <p style="color:rgb(255, 255, 255); line-height:1.5; text-align:left; margin:8px 0">
+                        <strong>Beneficiary Account Name:</strong> ODT Inc.
+                    </p>
+                    <p style="color:rgb(255, 255, 255); line-height:1.5; text-align:left; margin:8px 0">
+                        <strong>Beneficiary Address:</strong> 30 N Gould St. Suite 37740, Sheridan, WY 82801
+                    </p>
+                    <div style="width:100%; height:1px; background-color:rgb(255, 255, 255); margin:16px 0"></div>
+                    <strong style="color:rgb(255, 255, 255); font-weight:bold">Special
+                        Instructions/Notes:</strong>
+                    <p style="color:rgb(255, 255, 255); line-height:1.5; text-align:left; margin:8px 0">
+                        Client
+                        ID: ${Contacts.Contact Id}</p>
+                </td>
+            </tr>
+            <tr>
+                <td align="left" class="responsive-padding" style="background-color:rgb(52, 52, 52)">
+                    <p style="color:rgb(255, 255, 255); line-height:1.5; text-align:left; margin:8px 0">
+                        For a PDF version of these instructions on bank letterhead, please reach out to us at any one of
+                        our
+                        contact methods listed below.
+                    </p>
+                    <p style="color:rgb(255, 255, 255); line-height:1.5; text-align:left; margin:8px 0">
+                        After we receive your payment, you will receive a text or email with your trade confirmation.
+                        Please
+                        be aware that On-Demand Trading may, in some scenarios, need additional documentation.
+                    </p>
+                    <p
+                        style="color:rgb(221, 184, 66); font-weight:bold; line-height:1.5; text-align:left; margin:8px 0">
+                        For Sells, please give us a call or text and we will send you the wallet address where to send
+                        the
+                        crypto to complete your transaction.
+                    </p>
+                    <p style="color:rgb(255, 255, 255); line-height:1.5; text-align:left; margin:8px 0">
+                        If you have any questions or issues with your order, please reach out at any one of the contact
+                        methods listed below.
+                    </p>
+                    <strong
+                        style="color:rgb(255, 255, 255); font-weight:bold; line-height:1.5; text-align:left; display:block; margin-top:16px">
+                        Best regards, <br> The On-Demand Trading Team ODT Inc.
+                    </strong>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" class="responsive-padding" style="background-color:rgb(113, 113, 113)">
+                    <strong style="color:rgb(221, 184, 66); font-size:20px; font-weight:bold">
+                        Do you know about our referral program?
+                    </strong>
+                    <p style="color:rgb(255, 255, 255); line-height:1.5; text-align:center; margin:20px 0">
+                        Refer us customers and earn 25% of the fee revenue generated on every trade for a whole year!
+                        You
+                        can also earn $50 in stackable trade credits just by your referred customer's approved
+                        registration!
+                    </p>
+                    <p style="color:rgb(255, 255, 255); line-height:1.5; text-align:center; margin:0">
+                        <strong>For more information about our referral program or to register, visit:</strong>
+                    </p>
+                    <a href="https://www.ondemandtrading.com/crypto-referral-program"
+                        style="color:rgb(221, 184, 66); font-weight:bold; text-decoration:underline; margin-top:20px; display:block">
+                        www.ondemandtrading.com/crypto-referral-program
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td align="left" class="responsive-padding" style="background-color:rgb(52, 52, 52)">
+                    <p style="color:rgb(255, 255, 255); margin:8px 0"><strong
+                            style="color:rgb(221, 184, 66)">Email:</strong> help@odt.support</p>
+                    <p style="color:rgb(255, 255, 255); margin:8px 0"><strong
+                            style="color:rgb(221, 184, 66)">Call:</strong> (305) 998-7487</p>
+                    <p style="color:rgb(255, 255, 255); margin:8px 0"><strong
+                            style="color:rgb(221, 184, 66)">Text:</strong> (307) 200-8868</p>
+                    <p style="color:rgb(255, 255, 255); margin:8px 0"><strong
+                            style="color:rgb(221, 184, 66)">Fax:</strong> (312) 667-3914</p>
+                    <strong style="text-align:center; color:white; font-weight:bold; margin-top:16px">Trading is open
+                        Monday through Friday from 9:00 AM CT to 5:00 PM CT</strong>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" class="responsive-padding" style="background-color:rgb(195, 194, 193)">
+                    <p style="color:rgb(0, 0, 0); line-height:1.5; text-align:center; margin:0">
+                        By sending a text message to the number above, you agree to <strong>On-Demand Trading's SMS
+                            Terms and Conditions.</strong> All text message and data rates apply.
+                    </p>
+                    <a style="margin-top: 44px;"
+                        href="https://www.bbb.org/us/tx/lewisville/profile/cryptocurrency-exchange/odt-inc-0875-91342032"
+                        title="BBB Profile" target="_blank" rel="noopener noreferrer" style="display: inline-block">
+                        <img src="https://i.imgur.com/eG5L4gJ.png" height="78" width="233" style="line-height: 13px">
+                    </a>
+                    <p style="color:rgb(0, 0, 0); line-height:1.5; text-align:left; margin:20px 0">
+                        <strong>CONFIDENTIALITY STATEMENT:</strong> This e-mail and any attachments are intended
+                        only for those to which it is addressed and may contain information which is privileged,
+                        confidential and prohibited from disclosure and unauthorized use under applicable law. If
+                        you are not the intended recipient of this e-mail, you are hereby notified that any use,
+                        dissemination, or copying of this e-mail or the information contained in this e-mail is
+                        strictly prohibited by the sender. If you have received this transmission in error, please
+                        return the material received to the sender and delete all copies from your system.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" class="responsive-padding"
+                    style="background-color:rgb(0, 0, 0); color:rgb(255, 255, 255)">
+                    <p style="color:rgb(255, 255, 255); line-height:1.5; text-align:left; margin:0">
+                        InvestiFi, Inc. and ODT, Inc. do not offer or provide investment advisory services. The
+                        information contained is for informational purposes only. The Company is not soliciting any
+                        action based upon such statements. The material and information contained is not to be
+                        construed as investment advice.
+                    </p>
+                    <p style="color:rgb(255, 255, 255); line-height:1.5; text-align:center; margin:20px 0">
+                        <strong>ODT, Inc. is a wholly owned subsidiary of InvestiFi, Inc.<br>30 N Gould St. STE
+                            37749 Sheridan, WY 82801</strong>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+
+</html>
