@@ -19,6 +19,9 @@
             .responsive-text {
                 font-size: 24px !important
             }
+            .responsive-text-image {
+                width: 70%;
+            }
         }
 
         @media all and (min-width: 769px) {
@@ -34,6 +37,9 @@
 
             .responsive-text {
                 font-size: 44px !important
+            }
+            .responsive-text-image {
+                width: 50%;
             }
         }
 
@@ -73,11 +79,9 @@
                     <td align="center" class="responsive-padding" style="background-color: black;">
                         <img style="width: 80%; margin-bottom: 64px;" src="https://i.imgur.com/WqmO3B1.png" alt=""
                             style="display:block; margin:0 auto; max-width:100%">
-                        <h1
-                            style="color:rgb(255, 255, 255); font-size: 24px; font-weight:bold; line-height:1.25; text-align:center; margin:0">
-                            Hello <br><span class="responsive-text" style="color:rgb(221, 184, 66)">${Contacts.Lead
-                                Source}</span>
-                        </h1>
+                        
+                        <img class="responsive-text-image" src="https://imgur.com/Fjf9jCX.png" alt="">
+                        <h1 class="responsive-text" style="color:rgb(221, 184, 66)">${Contacts.Lead Source}</h1>
                     </td>
                 </tr>
                 <tr>
