@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <style>
         @media all and (max-width: 768px) {
             * {
@@ -19,6 +18,7 @@
             .responsive-text {
                 font-size: 24px !important
             }
+
             .responsive-text-image {
                 width: 70%;
             }
@@ -38,22 +38,21 @@
             .responsive-text {
                 font-size: 44px !important
             }
+
             .responsive-text-image {
                 width: 60%;
             }
         }
 
         @media (prefers-color-scheme: dark) {
-            body {
-                background-color: #ffffff !important;
-                color: #000000 !important;
+            .responsive-text-image {
+                filter: invert(1);
             }
         }
 
         @media (prefers-color-scheme: light) {
-            body {
-                background-color: #ffffff !important;
-                color: #000000 !important;
+            .responsive-text-image {
+                filter: invert(0);
             }
         }
 
@@ -79,11 +78,11 @@
 
         <table width="100%" cellpadding="0" cellspacing="0" border="0">
             <tbody>
-                <tr>https://imgur.com/VQBbxtd
-                    <td align="center" class="responsive-padding" style="background-color: black;">
+                <tr>
+                    <td align="center" class="responsive-padding" style="background-image: url(https://i.imgur.com/GVm3bon.png); background-size: cover; background-position: center;">
                         <img style="width: 80%; margin-bottom: 64px;" src="https://i.imgur.com/WqmO3B1.png" alt=""
                             style="display:block; margin:0 auto; max-width:100%">
-                        
+
                         <img class="responsive-text-image" src="https://i.imgur.com/LNik9Iy.png" alt="">
                         <h1 class="responsive-text" style="color:rgb(221, 184, 66)">With Us</h1>
                     </td>
@@ -109,7 +108,8 @@
                         <strong style="color: #DDB842;">The process is simple, submit your application on our page,
                             here:</strong> <br> <br>
 
-                        <a href="https://www.ondemandtrading.com/register">www.ondemandtrading.com/register</a> <br> <br>
+                        <a href="https://www.ondemandtrading.com/register">www.ondemandtrading.com/register</a> <br>
+                        <br>
 
                         <p>Once you are approved, you will receive instructions via email & text message on how to trade
                             with us.</p>
@@ -193,7 +193,7 @@
                                 style="line-height: 13px">
                         </a>
                         <p style="color:rgb(0, 0, 0); line-height:1.5; text-align:left; margin:20px 0">
-                            <strong>CONFIDENTIALITY STATEMENT:</strong> This e-mail and any attachments are intended
+                            <strong style="color: black;">CONFIDENTIALITY STATEMENT:</strong> This e-mail and any attachments are intended
                             only for those to which it is addressed and may contain information which is privileged,
                             confidential and prohibited from disclosure and unauthorized use under applicable law. If
                             you are not the intended recipient of this e-mail, you are hereby notified that any use,
